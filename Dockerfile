@@ -1,7 +1,7 @@
 FROM golang:alpine
 
 # Set necessary environmet variables needed for our image
-ARG bot_token=""
+ARG bot_token="MTAxMTU3NDkyNDkxOTQ0MzUxNg.G_tPvI.Nfr5Nd8avrWTELyvuePHKOvx7ZgWOPcU62q2e0"
 ENV BOT_TOKEN=$bot_token
 
 # Move to working directory /build
